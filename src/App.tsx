@@ -297,10 +297,7 @@ function HeroSection({ onBookClick }: { onBookClick: () => void }) {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source 
-            src="https://flow-content.google/video/b56b203d-edf9-40fe-8a00-961dfe35fc3d?Expires=1777016022&KeyName=labs-flow-prod-cdn-key&Signature=Q41VH9CXqxgy5syS9GJJJ1k25UE" 
-            type="video/mp4" 
-          />
+          <source src="/Flow.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/5 pointer-events-none"></div>
       </div>
